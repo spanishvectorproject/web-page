@@ -23,6 +23,57 @@ b {
     color: #08e09a;
 }
 
+.Actualizacion-box{
+    float: left;
+    margin-left: 1%;
+   margin-right: 1%;
+    display:block;
+}
+
+
+
+.Actualizacion-box2{
+    float: left;
+    margin-left: 50%;
+    margin-top: -29.5%;
+    display: block;}
+    .Actualizacion-box3{
+        float: left;
+        margin-left: 100%;
+        margin-top: -29.5%;
+        display: none
+        ;}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .exit{
 	width:50px;
