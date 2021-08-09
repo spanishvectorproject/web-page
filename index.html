@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Space Jam</title>
+	<link rel="stylesheet" href="spacejam.css">
+	<link rel="stylesheet" href="00-modelo.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+	<div class="encabezado">
+
+		
+	<header class="header" id="inicio">
+
+		<div class="absolute">
+			
+			<a href="index.html"><img class="exit" src="logout.png" /></a>
+			<img src="SOURCES/imagenes/spanish-vector-project.png" class="imglogospace">
+
+		</div>
+		
+
+		<video id="videoFondo" autoplay muted loop>
+			<source src="SOURCES/videos/video-vector-presentacion.mp4">
+			<script>
+				document.getElementById('videoFondo').play();
+			</script>
+		</video>
+
+
+	</header>
+	<main>
+		<div class="content-area">
+			<section class="services contenedor" id="servicio">
+				<h2 class="subtitulo">Información del robot</h2>
+				<p>
+					Vector es un robot destinado al ámbito doméstico, que incluye Inteligencia Artificial debido a que puede interactuar con el entorno, responder pregunras que le hagamos e incluso viene con el asistente virtual Alexa de Amazon incorporado.
+					El robot es propiedad de la empresa Anki y para que pueda actuar con todas sus funcionalidades es necesaria una subscripción a la nube de DDL (Digital Dream Labs)
+
+					A parte de ello ofrece la oportunidad de "programar" algunas instrucciones haciendo uso del lenguaje python y de su SDK, el problema es que se necesita un dispositivo intermediario entre Vector y nosotros para que haga de intérprete y ejecute los comandos que nosotros le hemos programado.
+					Por ello, DDL ha sacado una nueva opción llamada Escape Pod que nos permite poder programar al robot sin necesidad de tener la suscripción, pero teniendo nuestro Vector conectado a un servidor en una Raspberry Pi.
+
+				</p>
+			</section>
+			<section class="services contenedor" id="servicio2">
+				<h2 class="subtitulo">¿Qu&eacute; es Spanish Vector Project?</h2>
+				<p>
+					El proyecto Spanish Vector es un proyecto personal, cuyo objetivo es lograr:
+
+					La pronunciación así como el entendimiento de la lengua española por Vector
+					Poder usar Vector sin necesidad de los servidores de DDL ni de la compra del Escape Pod de DDL
+					La facilitación de customización de Vector
+					La adición de algoritmos que usen IA en Vector
+
+					Actualmente con mis conocimientos estoy logrando los tres primeros puntos descritos anteriormente, así también se agradece toda colaboración al proyecto.
+					Para ver los últimos avances al respecto pulsa <a href="proyecto-spanish-vector.html">aqui</a>
+
+				</p>
+			</section>
+			<section class="gallery" id="galeria">
+				<div class="contenedor">
+
+					<h2 class="subtitulo1">Actualizaciones</h2>
+					<div class="seccion">
+						<div class="box">
+							<img src="imgs/uno.jpg" alt="">
+							<div class="hover">
+								<p onclick="overlayOn2()">Lebron James</p>
+								<div id="overlaySerie1" class="overlayVideoGeneral" onclick="overlayOff2()">
+									<div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/6QRPvIsH88s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="box">
+							<img src="imgs/dos.jpg" alt="">
+							<div class="hover">
+								<p onclick="overlayOn3()">Kyrie Irving</p>
+								<div id="overlaySerie2" class="overlayVideoGeneral" onclick="overlayOff3()">
+									<div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/wf9x8J1SEIg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="box">
+							<img src="imgs/tres.jpg" alt="">
+							<div class="hover">
+								<p onclick="overlayOn4()">Klay Thompson</p>
+								<div id="overlaySerie3" class="overlayVideoGeneral" onclick="overlayOff4()">
+									<div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/BNs0GedQrME" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="box">
+							<img src="imgs/cuatro.jpg" alt="">
+							<div class="hover">
+								<p onclick="overlayOn5()">Damian Lillard</p>
+								<div id="overlaySerie4" class="overlayVideoGeneral" onclick="overlayOff5()">
+									<div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/rHVNnHZyxOU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								</div>
+
+							</div>
+						</div>
+						<div class="box">
+							<img src="imgs/cinco.jpg" alt="">
+							<div class="hover">
+								<p onclick="overlayOn6()">Anthony Davis</p>
+								<div id="overlaySerie5" class="overlayVideoGeneral" onclick="overlayOff6()">
+									<div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/3qX5xjxEzmc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+			</section>
+			<section class="pie">
+				<div>
+					
+					<p id="contacto">
+						&copy;Edu Jimenez 2021<br />
+						Contacto: <a href="mailto:edujimenez@cenec.com">edujimenez@cenec.com  <a />
+					</p>
+
+
+
+				</div>
+
+			</section>
+			<div class="imagen-light">
+				<img src="imgs/close.svg" alt="" class="close">
+				<img src="" alt="" class="agregar-imagen">
+			</div>
+
+		</div>
+	</main>
+
+	<footer id="footer">
+
+		<div class="line"></div>
+	</footer>
+	
+	<script type="text/javascript" src="spacejam.js"></script>
+	
+</body>
+</html>
+</html>
