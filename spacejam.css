@@ -511,10 +511,7 @@ footer{
     transform: scale(1.02);
 }
 
-.pie {
 
-
-}
 
 @media screen and (max-width: 470px){
 	.content-area{
@@ -524,8 +521,41 @@ footer{
 		height: 25%;
 		
 	}
-	
+
+    
+.Actualizacion-box{
+   
+    display: contents;
 }
+
+
+
+.Actualizacion-box2{
+
+    display: contents;}
+    .Actualizacion-box3{
+      
+        display: none
+        ;
+    
+    }
+
+    iframe {
+        width:"560";
+         height:"315";
+
+        
+    }
+}
+@media screen and(max-width:860px){
+    .Actualizacion-box2 {
+        /* float: left; */
+        margin-left: 1%;
+        margin-top: 59.5%;
+        display: contents;
+    }
+}
+
 @media screen and (max-width: 1110px){
 	.content-area{
 		top: 200px;
