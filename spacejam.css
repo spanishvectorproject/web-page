@@ -523,7 +523,14 @@ footer{
 		height: 25%;
 		
 	}
-
+    .imglogospace {
+        z-index: 100;
+        width: 171%;
+        margin-top: 22%;
+        height: auto;
+        max-width: 91%;
+        
+        }
     
 .Actualizacion-box{
    
@@ -556,7 +563,20 @@ footer{
         margin-top: 59.5%;
         display: contents;
     }
+
+
+
+    .imglogospace {
+        z-index: 100;
+        width: 171%;
+        margin-top: 22%;
+        height: auto;
+        max-width:  74%;
+       
+        }
 }
+
+
 
 @media screen and (max-width: 1110px){
 	.content-area{
@@ -566,7 +586,13 @@ footer{
 		height: 25%;
 		
 	}
-	
+    .imglogospace {
+        z-index: 100;
+        width: 171%;
+        margin-top: 16%;
+        height: auto;
+        max-width: 50%;
+    }
 }
 @media screen and (max-width: 800px){
     .menu-navegacion{
